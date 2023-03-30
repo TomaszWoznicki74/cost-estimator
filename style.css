@@ -1,6 +1,6 @@
 body {
   background-color: rgb(233, 223, 255);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,12 +9,43 @@ body {
   color: rgb(44, 44, 44);
 }
 
-h1{
-    color:rgb(83, 49, 156) ;
+h1 {
+  color: rgb(83, 49, 156);
 }
 
-.container{
-    background-color: #fff;
-    width: 100%;
-    max-width: 900px;
+.container {
+  /* flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.tabs {
+  /* flex */
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(200, 175, 255);
+}
+
+.tabs p {
+  padding: 20px;
+}
+
+.tabs p:hover{
+  color: rgb(83, 49, 156);
+  cursor: pointer;
+}
+
+.tabs p.active{
+  color: rgb(83, 49, 156);
 }
