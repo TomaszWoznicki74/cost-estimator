@@ -20,10 +20,13 @@ h1 {
   justify-content: center;
   align-items: center;
 
+
+  position: relative;
   background-color: #fff;
   border-radius: 20px;
   width: 100%;
   max-width: 900px;
+  padding: 0 64px 64px 0;
 }
 
 .tabs {
@@ -35,17 +38,27 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   color: rgb(200, 175, 255);
+  margin: 0 0 32px 0;
+  padding: 16px;
 }
 
 .tabs p {
-  padding: 20px;
+  padding: 8px;
 }
 
-.tabs p:hover{
+.tabs p:hover {
   color: rgb(83, 49, 156);
   cursor: pointer;
 }
 
-.tabs p.active{
+.tabs p.active {
   color: rgb(83, 49, 156);
+}
+
+.line{
+  position: absolute;
+  top:98px;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(231, 231, 231);
 }
