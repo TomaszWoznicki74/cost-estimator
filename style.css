@@ -177,10 +177,24 @@ h1 {
   top:-5px;
   left:29%;
   border: 2px solid #fff;
-  transition: .3s linear;
+  transition: .3s ease;
 }
 
 .point:hover{
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
+
+.scale{
+  width: 100%;
+}
+
+.slider .scale ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+color: rgb(166, 166, 166);
+}
+
